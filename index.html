@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content ="width=device-width, initial-scale=1.0">
+        <title>Alex's Portfolio Webiste</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" /> 
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/AH_Name.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Alex Hill</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Quant Developer/Analyst</p>
+            <img src="img/Me.png" alt="Normal me" class="intro__img">
+        </section>
+
+
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Data analysis</h3>
+                    <p>I have completed many engineering projects utilising a wide variety of data, such as Computational Fluid Dynamics, Robotics and Non-Destructive Testing,
+                        while also using machine learning, deep learning, SQL and coding in many languages. I have ultimately tailored these skills to the finance domain by
+                        focusing on market data and information. I am able to use my data skills to assess options and product pricing, algorithmic trading models and risk management.
+                        Although I am primarily concerned with the finance area, I can apply my data analysis skills to any problem that may come my way.
+                    </p>
+                </div>
+
+                <div class="service">
+                    <h3>Quantitative Finance</h3>
+                    <p>With my extensive skillset in multiple coding languages, my financial experience in traded products and trading teams as well as my knowledge of multivariate 
+                        and stochastic calculus, I had an excellent base on which I built my quantitative finance knowledge. I have been able to understand quickly most 
+                        pricing models and options trading strategies, as well as advanced algorithmic trading and market-making strategies. I always look forward to the new 
+                        challenges Quantitative Finance brings, and I look forward to a life-long career in the industry.
+                    </p>
+                </div>
+
+                <div class="service">
+                    <h3>Programming and Software Development</h3>
+                    <p>I have created many programmes using MATLAB, including a 3D printing software and a CFD turbulent flow simulator which aided in my supersonic rocket
+                        engine simulations and analysis. I have also created many scripts in MATLAB, Python, among others, as I am always looking for new challenges. Recently I created
+                        a C# windows application which used an SQL backend, a Winforms GUI created using .NET, a class library and text file storage for referencing.
+                
+                    </p>
+                </div>
+            </div>
+
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+
+        <!-- About me-->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">An engineering Masters graduate with programming and banking experience</p>
+
+            <div class="about-me__body">
+                <p>I have a 2:1 (with Honours) Masters degree from the University of Bristol, and this provided me with excellent problem-solving, analytical and data and programming
+                    skills. During my degree I completed many projects including Robotics, Fluid Mechanics, Thermodynamics and Finite Element Analysis. These projects allowed me to
+                    become very comfortable with MATLAB, Python, Java, as well as deriving information from a wide range of data sources and complexities. As I progressed, I focused
+                    more and more heavily on coding and data analysis, as this is what I enjoyed the most. I thrived on problems where it was necessary to find information within
+                    seemingly uncorrelated or disparate data.
+                </p>
+                <p>
+                    Along with my course, I was also heavily involved in the Bristol Electric Racing Team, being the deputy head of the Electrical team and responsible for the 
+                    majority of the powertrain team. This experience gave me excellent teamwork skills as well as organisational and planning skills as there were many external deadlines
+                    to reach while I managed a team of 60 engineers of varying skill level and availability. My experience at Lloyds Banking Group formalised my previous learning
+                    as this enabled me to understand how to work and function most efficiently in a large, multifaceted team while maintaining client relationships, the company's 
+                    vision and service quality. My interaction with the trading floor and the team behind it showed me where it was I wanted to be. Since then I have spent my free 
+                    time trading from home using a mix of fundamental and algorithmic trading strategies and learning as much as I can about the trading world, both the skills
+                    and techniques required, as well as the wider trading world by studying for the IMC qualification.
+
+                </p>
+            </div>
+
+            <img src="img/Me_2.png" alt="Computer" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+            <div class="portfolio">
+                <!-- Portfolio item 1 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio_1.PNG" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 2 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio_2.PNG" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 3 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio_3.PNG" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 4 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio_4.PNG" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 5 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio_5.PNG" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 6 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio_6.PNG" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 7 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio_7.PNG" alt="" class="portfolio__img">
+                </a>
+
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:alexhill745@googlemail.com" class="footer__link">alexhill745@googlemail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/alexanderhill745"><i class="fab fa-linkedin"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://www.github.com/alexhill745"><i class="fab fa-github"></i></a></li>
+                <li class="social-list__item"><a class="social-list__link" href="https://www.upwork.com/freelancers/~018fa8bd38e0d82e6f"><span class="iconify" 
+                    data-icon="simple-icons:upwork" data-inline="false" style="color: #16e0bd;"></span></a></li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
